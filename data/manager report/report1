@@ -1,0 +1,17 @@
+Provider name:van
+Provider number:000000001
+Provider name:van
+Services information:
+   f      100000      5-23-2017   
+   a      100001      5-22-2017   
+
+Provider name:smith
+Provider number:234567891
+Provider name:smith
+Services information:
+   a      100001      5-27-2017   
+
+
+Provider counts:2
+Total consultation:3
+Total fee:369.66

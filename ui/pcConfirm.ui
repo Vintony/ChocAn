@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>pcform</class>
+ <widget class="QWidget" name="pcform">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>114</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Provider Confirm</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>                      Enter provider code</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="pcText"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="confirmPC">
+     <property name="text">
+      <string>enter</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="toMainUI">
+     <property name="text">
+      <string>return</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>toMainUI</sender>
+   <signal>clicked()</signal>
+   <receiver>pcform</receiver>
+   <slot>toMainUI()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>218</x>
+     <y>94</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>231</x>
+     <y>-17</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>toMainUI()</slot>
+ </slots>
+</ui>
