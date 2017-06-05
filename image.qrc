@@ -1,6 +1,0 @@
-<RCC>
-  <qresource/>
-  <qresource prefix="/img">
-    <file>bg.jpg</file>
-  </qresource>
-</RCC>

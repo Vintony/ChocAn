@@ -330,7 +330,7 @@ class Ui_provForm(object):
     def retranslateProviderUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Provider"))
-        self.modify.setText(_translate("Form", "search by number"))
+        self.modify.setText(_translate("Form", "modify by number"))
         self.delete.setText(_translate("Form", "delete by number"))
         self.add.setText(_translate("Form", "add"))
         self.toAdminUI.setText(_translate("Form", "return"))
@@ -1013,7 +1013,7 @@ class Ui_mcForm(object):
     def retranslateMcConfirmUi(self, mcForm):
         _translate = QtCore.QCoreApplication.translate
         mcForm.setWindowTitle(_translate("mcForm", "Member Confirm"))
-        self.label.setText(_translate("mcForm", "                       Enter  member code"))
+        self.label.setText(_translate("mcForm", "      Enter  member code"))
         self.confirmMC.setText(_translate("mcForm", "enter"))
         self.toProviderConfirmUI.setText(_translate("mcForm", "return"))
 
@@ -1086,7 +1086,7 @@ class Ui_pcform(object):
     def retranslatePcConfirmUi(self, pcform):
         _translate = QtCore.QCoreApplication.translate
         pcform.setWindowTitle(_translate("pcform", "Provider Confirm"))
-        self.label.setText(_translate("pcform", "                      Enter provider code"))
+        self.label.setText(_translate("pcform", "     Enter provider code"))
         self.confirmPC.setText(_translate("pcform", "enter"))
         self.toMainUI.setText(_translate("pcform", "return"))
 
